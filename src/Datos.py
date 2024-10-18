@@ -18,7 +18,7 @@ def buscar_prendas_dict(prenda_buscada):
         print(f"prenda: {prenda_buscada}, talla: {datos['talla']}, precio: {datos['precio']}, color: {datos['color']}")
     else:
         print(f"Prenda: '{prenda_buscada}' no encontrada.")
-# Agregamos las presonas
+# Agregamos las prendas
 agregar_prenda_dict('camisa', 'S, M, L', 10000, 'azul')
 agregar_prenda_dict('pantalón', 'S, M, L, XL',150000, 'verde')
 agregar_prenda_dict('boxers', 'S, M', 21000, 'cafe')
